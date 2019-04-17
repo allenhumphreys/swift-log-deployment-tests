@@ -1,0 +1,6 @@
+framework module Pods_SwiftLogDeploymentTestProjectwatchOS_Extension {
+  umbrella header "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

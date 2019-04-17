@@ -1,0 +1,2117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027080A935B2545DEA4F48FA4E053750 /* Pods-SwiftLogDeploymentTestProjecttvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB4650186C3C5E2AD1E31F3C9060A15 /* Pods-SwiftLogDeploymentTestProjecttvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		056B3B4FDE6A539AAFA4257A573FC181 /* SwiftLogAPI-framework-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D244D83030508FA21B5CD43543E1D2F /* SwiftLogAPI-framework-macOS-dummy.m */; };
+		0A7F66B7F8C6F8C9F70D9F8FF06DA003 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */; };
+		13BB2C03D2F972166AD5FE6779C845CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */; };
+		228A12675182E82F3A15280F98B2FC18 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */; };
+		26B80A0C76BF81474F41059FC0C9AC68 /* Pods-SwiftLogDeploymentTestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC012BDCDB082B4C7328C2B0E9D156 /* Pods-SwiftLogDeploymentTestProject-dummy.m */; };
+		277A6173CA9E4ECF777A4E34AF1980D8 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EFBD16BE5F03D40511EF146D79D008 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D4327D9DB2E59B5BA085B2D20EBE7AB /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F27C05951B78F8E9BB6490E40E9FE593 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-dummy.m */; };
+		2D99A7ED7D819B78BBAF6D6331390AE5 /* SwiftLogAPI-framework-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10081C27BCD19B01E646F7D710DEB56D /* SwiftLogAPI-framework-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333E0CABCC37C08EDDCAFF30526B7E37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */; };
+		352B2DC1A3B0A00E26181775723E24FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */; };
+		3FDFA8293B331DE555B5B927B98BCDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */; };
+		41C4BD0519DC2222BE742131FDB78BE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */; };
+		4B4205B8335D6E8BEB9F8EA5EEAD3D01 /* Pods-SwiftLogDeploymentTestProjecttvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C9BD0B5FAFB88ED1832AC4789A04 /* Pods-SwiftLogDeploymentTestProjecttvOS-dummy.m */; };
+		549F784B7A4CBD314A29BAB665DDED09 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */; };
+		5DEDBF4F24E15FDB5068DABC82CC9EA4 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */; };
+		63FB410F356DB712555C59FB94C7A2E9 /* SwiftLogAPI-framework-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EADC6E79A6C7895ACCA5962DC32BE0 /* SwiftLogAPI-framework-iOS-dummy.m */; };
+		67624934C50867F418A83DF488D13BAC /* SwiftLogAPI-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902E6FC9AF2E7F9878CB9BFE74270548 /* SwiftLogAPI-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E16FE63DAB78BE5BD25DE3DC65B1284 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */; };
+		7E7EF8C14BC364F6D2ED4B8D8B7E716E /* SwiftLogAPI-framework-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82234699F5BEA8ACF09FCAA2C10022C /* SwiftLogAPI-framework-tvOS-dummy.m */; };
+		81C2E234FDD02C1E6569564BE67687C9 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C3A85F43531A53AD5F428E51264C06 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-dummy.m */; };
+		83F7B03F8FBEF8E47C4E633EDEA910F8 /* Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 917D9E5EEA72DBCB84974FB6782ECD26 /* Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D6CA64CB43AEB51E7ADD3D3CD9EA7AF /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */; };
+		99F7FBA56C30250F6E658276443FC98A /* SwiftLogAPI-framework-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B60234D7D1C5B75ABCAC40DA18616C /* SwiftLogAPI-framework-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A18CE2AE798DED2327B676EC4D051187 /* SwiftLogAPI-framework-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EF780D48FEBA99969944C38984FBC4 /* SwiftLogAPI-framework-watchOS-dummy.m */; };
+		A5BFF4CB047BA017972E38B18A597BAC /* SwiftLogAPI-framework-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B3FBDE5CEA1182456099B3AE3555AC /* SwiftLogAPI-framework-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB422EAB222E461BEBACC53CC8114FF6 /* SwiftLogAPI-framework-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6395A4BF82B56843468F7DA35169135A /* SwiftLogAPI-framework-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACD90EC4A8459D618C495BC953829E52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */; };
+		B0695A493A1AA54F422112F1ECDE172B /* Pods-SwiftLogDeploymentTestProjectiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE089C46FF4B13018DF960040B84B766 /* Pods-SwiftLogDeploymentTestProjectiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA5E3DB980B9E1F47D11065CBDBF0477 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */; };
+		BDD4077FFF335988C2B3F1065EF1F130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */; };
+		BE0695E8517417D6EF82BA056657CB64 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */; };
+		C7A8C351EEAF1A2F2D4F31A46ACDB8D2 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A848EB27D1227A20D65D09A65BAAE68E /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC4A830CEB62464DB291363122EA1AE3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */; };
+		D468F7A6F5F73CE4C5E6F4705318FC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */; };
+		E3D5495E08148E98373F2C89AB05D4A1 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */; };
+		E8CC23256160BE66F7D9A26A2D52CC9D /* Pods-SwiftLogDeploymentTestProjectwatchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB116024157E183AB5E3D68399F22A2 /* Pods-SwiftLogDeploymentTestProjectwatchOS-dummy.m */; };
+		E9637E7C94C5494477431AD00286877E /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */; };
+		EA348EE2214D270B1AF53F557F16CE59 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */; };
+		EED53719FF18E2F574B13DB3975FCCB7 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */; };
+		F2A983762A976CE03368E21CC6443426 /* Pods-SwiftLogDeploymentTestProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F47ADB9FAA0112DE5C261F5B2FCFF /* Pods-SwiftLogDeploymentTestProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D84CC6972057F25851A32A49A27F55 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */; };
+		FA4E5F4629439F8F94348D81FE8AB993 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */; };
+		FAABBA6D4AA03728434A20EAADB042EB /* Pods-SwiftLogDeploymentTestProjectiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656546C9EF309BE409D28FB462B35CF /* Pods-SwiftLogDeploymentTestProjectiOS-dummy.m */; };
+		FBA7BF7453AFE3468FF201A014692F75 /* SwiftLogAPI-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6773433A8EF37B81114E41A96C30C /* SwiftLogAPI-library-dummy.m */; };
+		FFDB64658E19945384D613E9734F8F1F /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06E94331008B4E7FDE8E564C6A5EA2C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F856678A9B647E6783D90FAC9BA35846;
+			remoteInfo = "SwiftLogAPI-framework-iOS";
+		};
+		1CB7A85D2D747BB1B5DBC72BEF498B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F856678A9B647E6783D90FAC9BA35846;
+			remoteInfo = "SwiftLogAPI-framework-iOS";
+		};
+		30EC33D543E80B62594FEE1DE167FFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3770C3E627307BD678E34F8C63D5F820;
+			remoteInfo = "SwiftLogAPI-framework-macOS";
+		};
+		6266120368D5CC8F7558883B48637D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1463DDE76DC9C3B6882B43B7F2EA8D;
+			remoteInfo = "SwiftLogAPI-framework-watchOS";
+		};
+		6805698BA2DD93ADB7286BF90B940881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84972650A3C5A2FE63DC020CB1864E00;
+			remoteInfo = "SwiftLogAPI-library";
+		};
+		BEB47098E816503A6ADEE541CD6CD2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9704803F1BA8D36A96B22DCE7DD79DB8;
+			remoteInfo = "SwiftLogAPI-framework-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013BCCB0EFA8D4C180E8501CAA8C183A /* Pods-SwiftLogDeploymentTestProjectiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		047FE7E26225D771947BF1B6B4D88D64 /* Pods-SwiftLogDeploymentTestProjectiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectiOS-Info.plist"; sourceTree = "<group>"; };
+		076BD392B2716D9FF5A8D693E12701E9 /* Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0A4349F144DB691FEED21DDF823B1D15 /* Pods-SwiftLogDeploymentTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		0D0069856E488E75C3DDD5D8D21896CD /* Pods-SwiftLogDeploymentTestProjectiOSExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension-Info.plist"; sourceTree = "<group>"; };
+		0F17A684A644AFAC5F40A9EAE8BA7945 /* SwiftLogAPI-framework-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-framework-watchOS-prefix.pch"; path = "../SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		10081C27BCD19B01E646F7D710DEB56D /* SwiftLogAPI-framework-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-framework-macOS-umbrella.h"; path = "../SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-umbrella.h"; sourceTree = "<group>"; };
+		11ECED5672831E5B0A50F935841376E1 /* SwiftLogAPI-framework-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftLogAPI-framework-iOS-Info.plist"; sourceTree = "<group>"; };
+		152268C0C4B807D8E41BB45A90F868BD /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-frameworks.sh"; sourceTree = "<group>"; };
+		1AEC87B980A3448B3FE38DDCAF61D346 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B527BE3EF5C9B2460DA9D26B2FEA9EE /* Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1EE2C6CF894FDEC8AC075644AAB45B7D /* SwiftLogAPI-framework-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftLogAPI-framework-macOS-Info.plist"; path = "../SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-Info.plist"; sourceTree = "<group>"; };
+		2574F5539EC103D8735559E32FDD8521 /* libSwiftLogAPI-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libSwiftLogAPI-library.a"; path = "libSwiftLogAPI-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29845FD831876BA4AD65D1A876EC5998 /* Pods-SwiftLogDeploymentTestProjecttvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLogDeploymentTestProjecttvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D6AD8EC1DE0C805B4DD5CD31416EF83 /* SwiftLogAPI-framework-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftLogAPI-framework-tvOS.modulemap"; path = "../SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS.modulemap"; sourceTree = "<group>"; };
+		2D87FF4270C0DA3FD3FEFF40AF5DEE63 /* SwiftLogAPI-framework-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftLogAPI-framework-watchOS.modulemap"; path = "../SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS.modulemap"; sourceTree = "<group>"; };
+		324C3AE7D268FA64727C12B92195275E /* Pods-SwiftLogDeploymentTestProjecttvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLogDeploymentTestProjecttvOS.modulemap"; sourceTree = "<group>"; };
+		3265DCC629D2B275899D5002FEFFA04B /* SwiftLogAPI-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-library-prefix.pch"; path = "../SwiftLogAPI-library/SwiftLogAPI-library-prefix.pch"; sourceTree = "<group>"; };
+		327024B580EF6853539B0BA7B8EC63D8 /* Pods-SwiftLogDeploymentTestProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		33A7C18AF834DF5CB5BF09DEA2E85788 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+		46B3FBDE5CEA1182456099B3AE3555AC /* SwiftLogAPI-framework-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLogAPI-framework-iOS-umbrella.h"; sourceTree = "<group>"; };
+		4D244D83030508FA21B5CD43543E1D2F /* SwiftLogAPI-framework-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftLogAPI-framework-macOS-dummy.m"; path = "../SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-dummy.m"; sourceTree = "<group>"; };
+		4F1CB708F62C426F9C8481B946226067 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		508F109BFE7BB8D30724A00A19CD7A8F /* Pods-SwiftLogDeploymentTestProjecttvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjecttvOS-Info.plist"; sourceTree = "<group>"; };
+		53F92B74F51B45808D815B3CD93BDE8D /* Pods-SwiftLogDeploymentTestProjectiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLogDeploymentTestProjectiOS-frameworks.sh"; sourceTree = "<group>"; };
+		545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locks.swift; path = Sources/Logging/Locks.swift; sourceTree = "<group>"; };
+		5A778361FC52B35450857264214B217C /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension.modulemap"; sourceTree = "<group>"; };
+		5AE8D775AE5C35EAE40A9CDA2EC23466 /* Pods-SwiftLogDeploymentTestProjecttvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjecttvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BA9C1F5C9393001FE2723B7DA330C1A /* Pods_SwiftLogDeploymentTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLogDeploymentTestProject.framework; path = "Pods-SwiftLogDeploymentTestProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEF73F5E71BCACEB2AAA3E725C5D367 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logging.framework; path = "SwiftLogAPI-framework-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC62CFCC981719CD2878F4E7300B221 /* Pods-SwiftLogDeploymentTestProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLogDeploymentTestProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		626EE2B584FA1084C08AA45E5AE1B27C /* SwiftLogAPI-framework-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftLogAPI-framework-watchOS-Info.plist"; path = "../SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-Info.plist"; sourceTree = "<group>"; };
+		6395A4BF82B56843468F7DA35169135A /* SwiftLogAPI-framework-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-framework-watchOS-umbrella.h"; path = "../SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHandler.swift; path = Sources/Logging/LogHandler.swift; sourceTree = "<group>"; };
+		6656546C9EF309BE409D28FB462B35CF /* Pods-SwiftLogDeploymentTestProjectiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLogDeploymentTestProjectiOS-dummy.m"; sourceTree = "<group>"; };
+		67B60234D7D1C5B75ABCAC40DA18616C /* SwiftLogAPI-framework-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-framework-tvOS-umbrella.h"; path = "../SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		67EFBD16BE5F03D40511EF146D79D008 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension-umbrella.h"; sourceTree = "<group>"; };
+		683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Sources/Logging/Logging.swift; sourceTree = "<group>"; };
+		6FB38F6589347C29CBF58FF5B3A9E414 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		70752C5CD2FA9CEA01F7B204D4B21AB5 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logging.framework; path = "SwiftLogAPI-framework-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747CECC57BCFE797BD50D0685EAC8607 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logging.framework; path = "SwiftLogAPI-framework-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7999A5BE6A05C4EEF92F5348CBA2EC0D /* Pods-SwiftLogDeploymentTestProjectiOSExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		79A82005CFDF6BD09B3EFA5C7C54FBD2 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logging.framework; path = "SwiftLogAPI-framework-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEDE9A2DACC7612D7F29ECB2CC2EAD /* Pods-SwiftLogDeploymentTestProjecttvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLogDeploymentTestProjecttvOS-frameworks.sh"; sourceTree = "<group>"; };
+		7A7337DF53F6ED2FFA8498888470A530 /* SwiftLogAPI-framework-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLogAPI-framework-iOS.xcconfig"; sourceTree = "<group>"; };
+		8489C9BD0B5FAFB88ED1832AC4789A04 /* Pods-SwiftLogDeploymentTestProjecttvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLogDeploymentTestProjecttvOS-dummy.m"; sourceTree = "<group>"; };
+		902E6FC9AF2E7F9878CB9BFE74270548 /* SwiftLogAPI-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-library-umbrella.h"; path = "../SwiftLogAPI-library/SwiftLogAPI-library-umbrella.h"; sourceTree = "<group>"; };
+		917D9E5EEA72DBCB84974FB6782ECD26 /* Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h"; sourceTree = "<group>"; };
+		91FCF352D3F80D13D413646AD978DF87 /* Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig"; sourceTree = "<group>"; };
+		960DA03C6D896B13C77822AFA4E24FAD /* Pods-SwiftLogDeploymentTestProjectiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLogDeploymentTestProjectiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BB4CB4E3247745F1AB88BEE3162FF0E /* SwiftLogAPI-framework-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftLogAPI-framework-tvOS-Info.plist"; path = "../SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-Info.plist"; sourceTree = "<group>"; };
+		9D3102F998E2B2CDB259D3CE3FF53358 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD25875F91831B0E484956F1C8BAA1B /* SwiftLogAPI-framework-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftLogAPI-framework-iOS.modulemap"; sourceTree = "<group>"; };
+		9EB116024157E183AB5E3D68399F22A2 /* Pods-SwiftLogDeploymentTestProjectwatchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLogDeploymentTestProjectwatchOS-dummy.m"; sourceTree = "<group>"; };
+		9F217C6489E916F77B77709F4037CBA4 /* SwiftLogAPI-framework-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftLogAPI-framework-macOS.modulemap"; path = "../SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS.modulemap"; sourceTree = "<group>"; };
+		9FEC012BDCDB082B4C7328C2B0E9D156 /* Pods-SwiftLogDeploymentTestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLogDeploymentTestProject-dummy.m"; sourceTree = "<group>"; };
+		A0EBF28CE80515A46760623BE7FC9365 /* SwiftLogAPI-framework-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLogAPI-framework-iOS-prefix.pch"; sourceTree = "<group>"; };
+		A311167AB5DD14A6EB578AF7E3E1D17D /* SwiftLogAPI-framework-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLogAPI-framework-tvOS.xcconfig"; path = "../SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS.xcconfig"; sourceTree = "<group>"; };
+		A795CC4D5A07922BC8A7D4246CCCBA36 /* Pods_SwiftLogDeploymentTestProjectiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLogDeploymentTestProjectiOS.framework; path = "Pods-SwiftLogDeploymentTestProjectiOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82234699F5BEA8ACF09FCAA2C10022C /* SwiftLogAPI-framework-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftLogAPI-framework-tvOS-dummy.m"; path = "../SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-dummy.m"; sourceTree = "<group>"; };
+		A848EB27D1227A20D65D09A65BAAE68E /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h"; sourceTree = "<group>"; };
+		A8C32ADF35AF794FED2E9B04C95053AE /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLogDeploymentTestProjectiOSExtension.framework; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B45E67FE55BA225DD4CFF9F59CCFB1 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB7421FBCE0AFFE5E7DE9FB858BEA4D3 /* Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AC65CAAE8D6D29A427CE476BB5EF0601 /* Pods-SwiftLogDeploymentTestProjectiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLogDeploymentTestProjectiOS.modulemap"; sourceTree = "<group>"; };
+		AFC89E864FE067CD568FF99E568B5FE6 /* SwiftLogAPI-framework-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-framework-macOS-prefix.pch"; path = "../SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-prefix.pch"; sourceTree = "<group>"; };
+		B3C0D04201C193268BDC92FDEE8D28A1 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C3A85F43531A53AD5F428E51264C06 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension-dummy.m"; sourceTree = "<group>"; };
+		B3F81FB13AD816576F63B6D9A6C3C946 /* Pods_SwiftLogDeploymentTestProjecttvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLogDeploymentTestProjecttvOS.framework; path = "Pods-SwiftLogDeploymentTestProjecttvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B7F063477B44D96660B1AC5C45BF334F /* Pods-SwiftLogDeploymentTestProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLogDeploymentTestProject.modulemap"; sourceTree = "<group>"; };
+		BA0CEDCEF775B814FA57386ADFC36643 /* Pods-SwiftLogDeploymentTestProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLogDeploymentTestProject-frameworks.sh"; sourceTree = "<group>"; };
+		BA2E7581716FCAE60F6E028F81E51A60 /* Pods-SwiftLogDeploymentTestProjectwatchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectwatchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCD4CE2F3C049861E0E1F5A6217B081B /* Pods-SwiftLogDeploymentTestProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProject-Info.plist"; sourceTree = "<group>"; };
+		BEB4650186C3C5E2AD1E31F3C9060A15 /* Pods-SwiftLogDeploymentTestProjecttvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLogDeploymentTestProjecttvOS-umbrella.h"; sourceTree = "<group>"; };
+		BF0B8BFBE34BB6258B744EFA374BBAF8 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwiftLogDeploymentTestProjectwatchOS.a"; path = "libPods-SwiftLogDeploymentTestProjectwatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1F47ADB9FAA0112DE5C261F5B2FCFF /* Pods-SwiftLogDeploymentTestProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLogDeploymentTestProject-umbrella.h"; sourceTree = "<group>"; };
+		C3CFBE4AD6E70E52BA7C9D9E3587C356 /* Pods-SwiftLogDeploymentTestProjectwatchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLogDeploymentTestProjectwatchOS.modulemap"; sourceTree = "<group>"; };
+		CB1FDD30720645556103CB606D04A63E /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-Info.plist"; sourceTree = "<group>"; };
+		CCC6773433A8EF37B81114E41A96C30C /* SwiftLogAPI-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftLogAPI-library-dummy.m"; path = "../SwiftLogAPI-library/SwiftLogAPI-library-dummy.m"; sourceTree = "<group>"; };
+		CEA72820B15C49FD9A410C41BD146D3C /* Pods-SwiftLogDeploymentTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4B87616F670C31AF9B33F3DD7D933D8 /* Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		DA80696C0791E58154DF0056F2E210CA /* Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig"; sourceTree = "<group>"; };
+		DCE13E8A6E32800B19DC560056CA9A2E /* SwiftLogAPI-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLogAPI-library.xcconfig"; path = "../SwiftLogAPI-library/SwiftLogAPI-library.xcconfig"; sourceTree = "<group>"; };
+		DF9AEF321F1E719ADD6037A5106D8DA8 /* SwiftLogAPI-framework-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLogAPI-framework-macOS.xcconfig"; path = "../SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS.xcconfig"; sourceTree = "<group>"; };
+		E04F7F6BDAF9FBAF4304D988BBB6388B /* Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E12282BFE57C1869FBFAEB7FA7EB5C7D /* SwiftLogAPI-framework-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftLogAPI-framework-tvOS-prefix.pch"; path = "../SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		E1A3DB5CA365379685778B83BAEC2274 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3EF780D48FEBA99969944C38984FBC4 /* SwiftLogAPI-framework-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftLogAPI-framework-watchOS-dummy.m"; path = "../SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-dummy.m"; sourceTree = "<group>"; };
+		E6EADC6E79A6C7895ACCA5962DC32BE0 /* SwiftLogAPI-framework-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLogAPI-framework-iOS-dummy.m"; sourceTree = "<group>"; };
+		EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF559BD9A9133E6D8E7D430F54A1EFF9 /* SwiftLogAPI-framework-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLogAPI-framework-watchOS.xcconfig"; path = "../SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS.xcconfig"; sourceTree = "<group>"; };
+		F27C05951B78F8E9BB6490E40E9FE593 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension-dummy.m"; sourceTree = "<group>"; };
+		F3F93B74F3C813ACA17A50DEA1F3BC68 /* SwiftLogAPI-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftLogAPI-library.modulemap"; path = "../SwiftLogAPI-library/SwiftLogAPI-library.modulemap"; sourceTree = "<group>"; };
+		F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC54601479AB9643B7900BC455DCE06A /* Pods-SwiftLogDeploymentTestProjectwatchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLogDeploymentTestProjectwatchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE089C46FF4B13018DF960040B84B766 /* Pods-SwiftLogDeploymentTestProjectiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLogDeploymentTestProjectiOS-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29D5A91C0C175BAEACC0223FCC3F3CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D468F7A6F5F73CE4C5E6F4705318FC3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BE91AC41ECDD917ACDAA3F5EFD4C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDFA8293B331DE555B5B927B98BCDBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C39254EAB4D014B7875A3D86534D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E0CABCC37C08EDDCAFF30526B7E37 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B417E402EADEB3C9A6104B79F23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C4BD0519DC2222BE742131FDB78BE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8DEDEF74324080CEE8571077F64C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BB2C03D2F972166AD5FE6779C845CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B542D3BB51DD1B1DF77F4D6298CA90DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352B2DC1A3B0A00E26181775723E24FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93BAF888A464130D2B99784F00F9F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD90EC4A8459D618C495BC953829E52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1182CDE7491F31906D8EB85F6F8C98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CB587157A926DA3FA00A72080D48E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B7872382227B1282EB68731DA717E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A830CEB62464DB291363122EA1AE3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53BAFA9A366DAADF3B0313F69CC38F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD4077FFF335988C2B3F1065EF1F130 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB1EF23369A57E89233E058C70186BA /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A778361FC52B35450857264214B217C /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.modulemap */,
+				1AEC87B980A3448B3FE38DDCAF61D346 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-acknowledgements.markdown */,
+				E1A3DB5CA365379685778B83BAEC2274 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-acknowledgements.plist */,
+				F27C05951B78F8E9BB6490E40E9FE593 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-dummy.m */,
+				152268C0C4B807D8E41BB45A90F868BD /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-frameworks.sh */,
+				CB1FDD30720645556103CB606D04A63E /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-Info.plist */,
+				A848EB27D1227A20D65D09A65BAAE68E /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h */,
+				B3C0D04201C193268BDC92FDEE8D28A1 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig */,
+				33A7C18AF834DF5CB5BF09DEA2E85788 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension";
+			path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension";
+			sourceTree = "<group>";
+		};
+		236E8EB6F33F110451FE527CF81E2763 /* Pods-SwiftLogDeploymentTestProjectwatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				C3CFBE4AD6E70E52BA7C9D9E3587C356 /* Pods-SwiftLogDeploymentTestProjectwatchOS.modulemap */,
+				FC54601479AB9643B7900BC455DCE06A /* Pods-SwiftLogDeploymentTestProjectwatchOS-acknowledgements.markdown */,
+				BA2E7581716FCAE60F6E028F81E51A60 /* Pods-SwiftLogDeploymentTestProjectwatchOS-acknowledgements.plist */,
+				9EB116024157E183AB5E3D68399F22A2 /* Pods-SwiftLogDeploymentTestProjectwatchOS-dummy.m */,
+				917D9E5EEA72DBCB84974FB6782ECD26 /* Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h */,
+				AB7421FBCE0AFFE5E7DE9FB858BEA4D3 /* Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig */,
+				D4B87616F670C31AF9B33F3DD7D933D8 /* Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectwatchOS";
+			path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS";
+			sourceTree = "<group>";
+		};
+		3EF5547704FF8E028254FB214931F2CC /* Pods-SwiftLogDeploymentTestProjectiOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC65CAAE8D6D29A427CE476BB5EF0601 /* Pods-SwiftLogDeploymentTestProjectiOS.modulemap */,
+				960DA03C6D896B13C77822AFA4E24FAD /* Pods-SwiftLogDeploymentTestProjectiOS-acknowledgements.markdown */,
+				013BCCB0EFA8D4C180E8501CAA8C183A /* Pods-SwiftLogDeploymentTestProjectiOS-acknowledgements.plist */,
+				6656546C9EF309BE409D28FB462B35CF /* Pods-SwiftLogDeploymentTestProjectiOS-dummy.m */,
+				53F92B74F51B45808D815B3CD93BDE8D /* Pods-SwiftLogDeploymentTestProjectiOS-frameworks.sh */,
+				047FE7E26225D771947BF1B6B4D88D64 /* Pods-SwiftLogDeploymentTestProjectiOS-Info.plist */,
+				FE089C46FF4B13018DF960040B84B766 /* Pods-SwiftLogDeploymentTestProjectiOS-umbrella.h */,
+				076BD392B2716D9FF5A8D693E12701E9 /* Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig */,
+				91FCF352D3F80D13D413646AD978DF87 /* Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectiOS";
+			path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS";
+			sourceTree = "<group>";
+		};
+		45EE901EF9ECB6C54AA71385874EBC72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F437E9A3FD531FC00D3B50FA4A81FE2A /* Pods-SwiftLogDeploymentTestProject */,
+				3EF5547704FF8E028254FB214931F2CC /* Pods-SwiftLogDeploymentTestProjectiOS */,
+				B69312D559537D216152B9D9B2EB8C86 /* Pods-SwiftLogDeploymentTestProjectiOSExtension */,
+				4EC91822987A60CABF4AB06F0BDF9092 /* Pods-SwiftLogDeploymentTestProjecttvOS */,
+				236E8EB6F33F110451FE527CF81E2763 /* Pods-SwiftLogDeploymentTestProjectwatchOS */,
+				1DB1EF23369A57E89233E058C70186BA /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4CF7E0763610C772321F3455907D8529 /* SwiftLogAPI */ = {
+			isa = PBXGroup;
+			children = (
+				545016DF8B1DC6CD08DBC18A12494C1B /* Locks.swift */,
+				683347FD54CC668BD9C1808FA587CA9F /* Logging.swift */,
+				658CA6527E2A80AC51DE5446112DFBAB /* LogHandler.swift */,
+				921BB95E24F319E8ABC66D5A8D6A62E9 /* Support Files */,
+			);
+			name = SwiftLogAPI;
+			path = SwiftLogAPI;
+			sourceTree = "<group>";
+		};
+		4EC91822987A60CABF4AB06F0BDF9092 /* Pods-SwiftLogDeploymentTestProjecttvOS */ = {
+			isa = PBXGroup;
+			children = (
+				324C3AE7D268FA64727C12B92195275E /* Pods-SwiftLogDeploymentTestProjecttvOS.modulemap */,
+				29845FD831876BA4AD65D1A876EC5998 /* Pods-SwiftLogDeploymentTestProjecttvOS-acknowledgements.markdown */,
+				5AE8D775AE5C35EAE40A9CDA2EC23466 /* Pods-SwiftLogDeploymentTestProjecttvOS-acknowledgements.plist */,
+				8489C9BD0B5FAFB88ED1832AC4789A04 /* Pods-SwiftLogDeploymentTestProjecttvOS-dummy.m */,
+				79BEDE9A2DACC7612D7F29ECB2CC2EAD /* Pods-SwiftLogDeploymentTestProjecttvOS-frameworks.sh */,
+				508F109BFE7BB8D30724A00A19CD7A8F /* Pods-SwiftLogDeploymentTestProjecttvOS-Info.plist */,
+				BEB4650186C3C5E2AD1E31F3C9060A15 /* Pods-SwiftLogDeploymentTestProjecttvOS-umbrella.h */,
+				1B527BE3EF5C9B2460DA9D26B2FEA9EE /* Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig */,
+				E04F7F6BDAF9FBAF4304D988BBB6388B /* Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjecttvOS";
+			path = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS";
+			sourceTree = "<group>";
+		};
+		5A4D21523E5EB6778702CACF7C410915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86163F234675C9B862D8F16F4BF989B8 /* iOS */,
+				5E7D4DF524A03505331CD3A7FFD320C0 /* OS X */,
+				B4532F4133248EC2661BA577741F1CA9 /* tvOS */,
+				77C5000785B4328E3949CEBF2835B233 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E7D4DF524A03505331CD3A7FFD320C0 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		77C5000785B4328E3949CEBF2835B233 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		86163F234675C9B862D8F16F4BF989B8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		921BB95E24F319E8ABC66D5A8D6A62E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DD25875F91831B0E484956F1C8BAA1B /* SwiftLogAPI-framework-iOS.modulemap */,
+				7A7337DF53F6ED2FFA8498888470A530 /* SwiftLogAPI-framework-iOS.xcconfig */,
+				E6EADC6E79A6C7895ACCA5962DC32BE0 /* SwiftLogAPI-framework-iOS-dummy.m */,
+				11ECED5672831E5B0A50F935841376E1 /* SwiftLogAPI-framework-iOS-Info.plist */,
+				A0EBF28CE80515A46760623BE7FC9365 /* SwiftLogAPI-framework-iOS-prefix.pch */,
+				46B3FBDE5CEA1182456099B3AE3555AC /* SwiftLogAPI-framework-iOS-umbrella.h */,
+				9F217C6489E916F77B77709F4037CBA4 /* SwiftLogAPI-framework-macOS.modulemap */,
+				DF9AEF321F1E719ADD6037A5106D8DA8 /* SwiftLogAPI-framework-macOS.xcconfig */,
+				4D244D83030508FA21B5CD43543E1D2F /* SwiftLogAPI-framework-macOS-dummy.m */,
+				1EE2C6CF894FDEC8AC075644AAB45B7D /* SwiftLogAPI-framework-macOS-Info.plist */,
+				AFC89E864FE067CD568FF99E568B5FE6 /* SwiftLogAPI-framework-macOS-prefix.pch */,
+				10081C27BCD19B01E646F7D710DEB56D /* SwiftLogAPI-framework-macOS-umbrella.h */,
+				2D6AD8EC1DE0C805B4DD5CD31416EF83 /* SwiftLogAPI-framework-tvOS.modulemap */,
+				A311167AB5DD14A6EB578AF7E3E1D17D /* SwiftLogAPI-framework-tvOS.xcconfig */,
+				A82234699F5BEA8ACF09FCAA2C10022C /* SwiftLogAPI-framework-tvOS-dummy.m */,
+				9BB4CB4E3247745F1AB88BEE3162FF0E /* SwiftLogAPI-framework-tvOS-Info.plist */,
+				E12282BFE57C1869FBFAEB7FA7EB5C7D /* SwiftLogAPI-framework-tvOS-prefix.pch */,
+				67B60234D7D1C5B75ABCAC40DA18616C /* SwiftLogAPI-framework-tvOS-umbrella.h */,
+				2D87FF4270C0DA3FD3FEFF40AF5DEE63 /* SwiftLogAPI-framework-watchOS.modulemap */,
+				EF559BD9A9133E6D8E7D430F54A1EFF9 /* SwiftLogAPI-framework-watchOS.xcconfig */,
+				E3EF780D48FEBA99969944C38984FBC4 /* SwiftLogAPI-framework-watchOS-dummy.m */,
+				626EE2B584FA1084C08AA45E5AE1B27C /* SwiftLogAPI-framework-watchOS-Info.plist */,
+				0F17A684A644AFAC5F40A9EAE8BA7945 /* SwiftLogAPI-framework-watchOS-prefix.pch */,
+				6395A4BF82B56843468F7DA35169135A /* SwiftLogAPI-framework-watchOS-umbrella.h */,
+				F3F93B74F3C813ACA17A50DEA1F3BC68 /* SwiftLogAPI-library.modulemap */,
+				DCE13E8A6E32800B19DC560056CA9A2E /* SwiftLogAPI-library.xcconfig */,
+				CCC6773433A8EF37B81114E41A96C30C /* SwiftLogAPI-library-dummy.m */,
+				3265DCC629D2B275899D5002FEFFA04B /* SwiftLogAPI-library-prefix.pch */,
+				902E6FC9AF2E7F9878CB9BFE74270548 /* SwiftLogAPI-library-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLogAPI-framework-iOS";
+			sourceTree = "<group>";
+		};
+		93B8EFBDDA8FAE573D1983300EC91E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CF7E0763610C772321F3455907D8529 /* SwiftLogAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4532F4133248EC2661BA577741F1CA9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		B69312D559537D216152B9D9B2EB8C86 /* Pods-SwiftLogDeploymentTestProjectiOSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9D3102F998E2B2CDB259D3CE3FF53358 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.modulemap */,
+				A9B45E67FE55BA225DD4CFF9F59CCFB1 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-acknowledgements.markdown */,
+				7999A5BE6A05C4EEF92F5348CBA2EC0D /* Pods-SwiftLogDeploymentTestProjectiOSExtension-acknowledgements.plist */,
+				B3C3A85F43531A53AD5F428E51264C06 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-dummy.m */,
+				0D0069856E488E75C3DDD5D8D21896CD /* Pods-SwiftLogDeploymentTestProjectiOSExtension-Info.plist */,
+				67EFBD16BE5F03D40511EF146D79D008 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-umbrella.h */,
+				6FB38F6589347C29CBF58FF5B3A9E414 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig */,
+				DA80696C0791E58154DF0056F2E210CA /* Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectiOSExtension";
+			path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension";
+			sourceTree = "<group>";
+		};
+		B7DA1840A1001989D9A3080BDB185836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0B8BFBE34BB6258B744EFA374BBAF8 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a */,
+				2574F5539EC103D8735559E32FDD8521 /* libSwiftLogAPI-library.a */,
+				79A82005CFDF6BD09B3EFA5C7C54FBD2 /* Logging.framework */,
+				5BEF73F5E71BCACEB2AAA3E725C5D367 /* Logging.framework */,
+				747CECC57BCFE797BD50D0685EAC8607 /* Logging.framework */,
+				70752C5CD2FA9CEA01F7B204D4B21AB5 /* Logging.framework */,
+				5BA9C1F5C9393001FE2723B7DA330C1A /* Pods_SwiftLogDeploymentTestProject.framework */,
+				A795CC4D5A07922BC8A7D4246CCCBA36 /* Pods_SwiftLogDeploymentTestProjectiOS.framework */,
+				A8C32ADF35AF794FED2E9B04C95053AE /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework */,
+				B3F81FB13AD816576F63B6D9A6C3C946 /* Pods_SwiftLogDeploymentTestProjecttvOS.framework */,
+				4F1CB708F62C426F9C8481B946226067 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A4D21523E5EB6778702CACF7C410915 /* Frameworks */,
+				93B8EFBDDA8FAE573D1983300EC91E80 /* Pods */,
+				B7DA1840A1001989D9A3080BDB185836 /* Products */,
+				45EE901EF9ECB6C54AA71385874EBC72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F437E9A3FD531FC00D3B50FA4A81FE2A /* Pods-SwiftLogDeploymentTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				B7F063477B44D96660B1AC5C45BF334F /* Pods-SwiftLogDeploymentTestProject.modulemap */,
+				5DC62CFCC981719CD2878F4E7300B221 /* Pods-SwiftLogDeploymentTestProject-acknowledgements.markdown */,
+				327024B580EF6853539B0BA7B8EC63D8 /* Pods-SwiftLogDeploymentTestProject-acknowledgements.plist */,
+				9FEC012BDCDB082B4C7328C2B0E9D156 /* Pods-SwiftLogDeploymentTestProject-dummy.m */,
+				BA0CEDCEF775B814FA57386ADFC36643 /* Pods-SwiftLogDeploymentTestProject-frameworks.sh */,
+				BCD4CE2F3C049861E0E1F5A6217B081B /* Pods-SwiftLogDeploymentTestProject-Info.plist */,
+				BF1F47ADB9FAA0112DE5C261F5B2FCFF /* Pods-SwiftLogDeploymentTestProject-umbrella.h */,
+				CEA72820B15C49FD9A410C41BD146D3C /* Pods-SwiftLogDeploymentTestProject.debug.xcconfig */,
+				0A4349F144DB691FEED21DDF823B1D15 /* Pods-SwiftLogDeploymentTestProject.release.xcconfig */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProject";
+			path = "Target Support Files/Pods-SwiftLogDeploymentTestProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E6C134B4ADAC08269C07A256269341F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0695A493A1AA54F422112F1ECDE172B /* Pods-SwiftLogDeploymentTestProjectiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3090DA7D8B17891640FA4C876DB0C684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67624934C50867F418A83DF488D13BAC /* SwiftLogAPI-library-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355A0957574AD18B3115437BC72B30FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A8C351EEAF1A2F2D4F31A46ACDB8D2 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE3F804C32BA6DB9B2FF9B9235BF08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F7FBA56C30250F6E658276443FC98A /* SwiftLogAPI-framework-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA5B5EC3878E3D1996BB6227AC1FEC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7B03F8FBEF8E47C4E633EDEA910F8 /* Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0351B9FA61B7A49D03ED6F02F0AD14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D99A7ED7D819B78BBAF6D6331390AE5 /* SwiftLogAPI-framework-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5C95FAFDD7AB226A2DB4F74A23685A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277A6173CA9E4ECF777A4E34AF1980D8 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A919809E39BD732DF51AD873E59EA992 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A983762A976CE03368E21CC6443426 /* Pods-SwiftLogDeploymentTestProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8D8CDD5485A8216D0828BB429917 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027080A935B2545DEA4F48FA4E053750 /* Pods-SwiftLogDeploymentTestProjecttvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09B4164EAFF895B09C8B1D5ACB5270E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB422EAB222E461BEBACC53CC8114FF6 /* SwiftLogAPI-framework-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4ABE5C5F3054B207CDD103BAF6C56F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFF4CB047BA017972E38B18A597BAC /* SwiftLogAPI-framework-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		118B14B095D2235B0A62F0A52570AC37 /* Pods-SwiftLogDeploymentTestProjecttvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4625253C076597C308DC98A9DC6262 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjecttvOS" */;
+			buildPhases = (
+				AE5C8D8CDD5485A8216D0828BB429917 /* Headers */,
+				32C17F068B76CCA1BF817602A2999553 /* Sources */,
+				B93BAF888A464130D2B99784F00F9F0E /* Frameworks */,
+				EBFCCA1B453843E9FD93B7621D823985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FCB6F0E42E693F8DBBC91FB19C4818 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjecttvOS";
+			productName = "Pods-SwiftLogDeploymentTestProjecttvOS";
+			productReference = B3F81FB13AD816576F63B6D9A6C3C946 /* Pods_SwiftLogDeploymentTestProjecttvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15E9205BFAA12DFD52BE1CD49237143A /* Pods-SwiftLogDeploymentTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CBCB12F79FD2B013DBD1796EF71215 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProject" */;
+			buildPhases = (
+				A919809E39BD732DF51AD873E59EA992 /* Headers */,
+				D5396FA0C8F34A8741A6D7545C51E4F8 /* Sources */,
+				D9B7872382227B1282EB68731DA717E3 /* Frameworks */,
+				67B5E5AB188D26BD0D52B987F0272DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E997BD5061175AB6C8D49DFD92DB66FC /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProject";
+			productName = "Pods-SwiftLogDeploymentTestProject";
+			productReference = 5BA9C1F5C9393001FE2723B7DA330C1A /* Pods_SwiftLogDeploymentTestProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28B82CFB8ACF611EB9E16F04252E0848 /* Pods-SwiftLogDeploymentTestProjectiOSExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1733CF6234E9E39FF2BAC65CFC4412 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectiOSExtension" */;
+			buildPhases = (
+				9B5C95FAFDD7AB226A2DB4F74A23685A /* Headers */,
+				5059E69E160E8D7B280E01DF3A76FFF7 /* Sources */,
+				29D5A91C0C175BAEACC0223FCC3F3CE4 /* Frameworks */,
+				8CFD5FC2445FBF1785C0388F008C2761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01941487149E8D3ECAA1A96A82A8F61B /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectiOSExtension";
+			productName = "Pods-SwiftLogDeploymentTestProjectiOSExtension";
+			productReference = A8C32ADF35AF794FED2E9B04C95053AE /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3770C3E627307BD678E34F8C63D5F820 /* SwiftLogAPI-framework-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3133319D8E08A7E8C46AC3C105CC804F /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-macOS" */;
+			buildPhases = (
+				6E0351B9FA61B7A49D03ED6F02F0AD14 /* Headers */,
+				CC03A666CDA79C00571CEEB5F8479F9B /* Sources */,
+				93C39254EAB4D014B7875A3D86534D02 /* Frameworks */,
+				99C06A3D957E4E6FD9A0E6002BAFC90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLogAPI-framework-macOS";
+			productName = "SwiftLogAPI-framework-macOS";
+			productReference = 70752C5CD2FA9CEA01F7B204D4B21AB5 /* Logging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A1463DDE76DC9C3B6882B43B7F2EA8D /* SwiftLogAPI-framework-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E5B2CA440584D66BFA8D70E6BAC2EF /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-watchOS" */;
+			buildPhases = (
+				F09B4164EAFF895B09C8B1D5ACB5270E /* Headers */,
+				A1FB0490F9841B1C90486F1273B3B4D8 /* Sources */,
+				59BE91AC41ECDD917ACDAA3F5EFD4C63 /* Frameworks */,
+				E3DA54708419D8D85A3E0D9F6705FD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLogAPI-framework-watchOS";
+			productName = "SwiftLogAPI-framework-watchOS";
+			productReference = 5BEF73F5E71BCACEB2AAA3E725C5D367 /* Logging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82763D02826B28C89B49A5BAAF962F46 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1040332AC6CEA97E8028DE1DAF376B57 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectwatchOS Extension" */;
+			buildPhases = (
+				355A0957574AD18B3115437BC72B30FA /* Headers */,
+				1798197D4B2AB982D5E48629FA027ECB /* Sources */,
+				9DA7B417E402EADEB3C9A6104B79F23C /* Frameworks */,
+				C6634F95D6F2E68A9D5AF5F289BF416F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				069E2C8E34CB3D266C36A6B2B222CBCA /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension";
+			productName = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension";
+			productReference = 4F1CB708F62C426F9C8481B946226067 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84972650A3C5A2FE63DC020CB1864E00 /* SwiftLogAPI-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC66EA7E1B487CE46E74B388836DFA7 /* Build configuration list for PBXNativeTarget "SwiftLogAPI-library" */;
+			buildPhases = (
+				3090DA7D8B17891640FA4C876DB0C684 /* Headers */,
+				44BC30D2F5964D84B628652AB363C132 /* Sources */,
+				C1182CDE7491F31906D8EB85F6F8C98E /* Frameworks */,
+				B8B298A4F7138419E15BFD633D8F0B9B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLogAPI-library";
+			productName = "SwiftLogAPI-library";
+			productReference = 2574F5539EC103D8735559E32FDD8521 /* libSwiftLogAPI-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9704803F1BA8D36A96B22DCE7DD79DB8 /* SwiftLogAPI-framework-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC28AB49369D5D40CB151779D7A5097D /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-tvOS" */;
+			buildPhases = (
+				40DE3F804C32BA6DB9B2FF9B9235BF08 /* Headers */,
+				DCE046063790EBAD8E23B7A3F073E01E /* Sources */,
+				9E8DEDEF74324080CEE8571077F64C08 /* Frameworks */,
+				506609DAF181E8CA249C96260AFD2CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLogAPI-framework-tvOS";
+			productName = "SwiftLogAPI-framework-tvOS";
+			productReference = 79A82005CFDF6BD09B3EFA5C7C54FBD2 /* Logging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C107915099FAF878C91AAA488BEFE4BF /* Pods-SwiftLogDeploymentTestProjectiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BAD453317FBC8B67FCE1D5FB465566 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectiOS" */;
+			buildPhases = (
+				0E6C134B4ADAC08269C07A256269341F /* Headers */,
+				DA234F0161B0F6B3189915293827CD75 /* Sources */,
+				B542D3BB51DD1B1DF77F4D6298CA90DF /* Frameworks */,
+				8115A018E94F10357348DC2D13B15021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85572CECEE67165C5852DEA2B4F3CF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectiOS";
+			productName = "Pods-SwiftLogDeploymentTestProjectiOS";
+			productReference = A795CC4D5A07922BC8A7D4246CCCBA36 /* Pods_SwiftLogDeploymentTestProjectiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA7F0406119BE31D11AF3916FFFAAB2F /* Pods-SwiftLogDeploymentTestProjectwatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78F4F9B8739837C6D3A977795380756 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectwatchOS" */;
+			buildPhases = (
+				4AA5B5EC3878E3D1996BB6227AC1FEC0 /* Headers */,
+				DA491002CCDFDBDB5EBAE276D16651E1 /* Sources */,
+				C6CB587157A926DA3FA00A72080D48E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F86E1EAC16F00551E4FD1871D61BBC /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLogDeploymentTestProjectwatchOS";
+			productName = "Pods-SwiftLogDeploymentTestProjectwatchOS";
+			productReference = BF0B8BFBE34BB6258B744EFA374BBAF8 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F856678A9B647E6783D90FAC9BA35846 /* SwiftLogAPI-framework-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711D85E06BCE6EA12216A7A19B3FFE48 /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-iOS" */;
+			buildPhases = (
+				FD4ABE5C5F3054B207CDD103BAF6C56F /* Headers */,
+				C137C4C1581C808C7FE9136DA29E916F /* Sources */,
+				E53BAFA9A366DAADF3B0313F69CC38F0 /* Frameworks */,
+				3083FCA26375A644DA564E1F774D4928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLogAPI-framework-iOS";
+			productName = "SwiftLogAPI-framework-iOS";
+			productReference = 747CECC57BCFE797BD50D0685EAC8607 /* Logging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B7DA1840A1001989D9A3080BDB185836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E9205BFAA12DFD52BE1CD49237143A /* Pods-SwiftLogDeploymentTestProject */,
+				C107915099FAF878C91AAA488BEFE4BF /* Pods-SwiftLogDeploymentTestProjectiOS */,
+				28B82CFB8ACF611EB9E16F04252E0848 /* Pods-SwiftLogDeploymentTestProjectiOSExtension */,
+				118B14B095D2235B0A62F0A52570AC37 /* Pods-SwiftLogDeploymentTestProjecttvOS */,
+				EA7F0406119BE31D11AF3916FFFAAB2F /* Pods-SwiftLogDeploymentTestProjectwatchOS */,
+				82763D02826B28C89B49A5BAAF962F46 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension */,
+				F856678A9B647E6783D90FAC9BA35846 /* SwiftLogAPI-framework-iOS */,
+				3770C3E627307BD678E34F8C63D5F820 /* SwiftLogAPI-framework-macOS */,
+				9704803F1BA8D36A96B22DCE7DD79DB8 /* SwiftLogAPI-framework-tvOS */,
+				5A1463DDE76DC9C3B6882B43B7F2EA8D /* SwiftLogAPI-framework-watchOS */,
+				84972650A3C5A2FE63DC020CB1864E00 /* SwiftLogAPI-library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3083FCA26375A644DA564E1F774D4928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506609DAF181E8CA249C96260AFD2CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B5E5AB188D26BD0D52B987F0272DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8115A018E94F10357348DC2D13B15021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFD5FC2445FBF1785C0388F008C2761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C06A3D957E4E6FD9A0E6002BAFC90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6634F95D6F2E68A9D5AF5F289BF416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DA54708419D8D85A3E0D9F6705FD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFCCA1B453843E9FD93B7621D823985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8B298A4F7138419E15BFD633D8F0B9B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Logging/SwiftLogAPI-library.modulemap",
+				"${PODS_ROOT}/Headers/Public/Logging/SwiftLogAPI-library-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftLogAPI-library-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Logging/SwiftLogAPI-library.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Logging/SwiftLogAPI-library-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1798197D4B2AB982D5E48629FA027ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4327D9DB2E59B5BA085B2D20EBE7AB /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C17F068B76CCA1BF817602A2999553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4205B8335D6E8BEB9F8EA5EEAD3D01 /* Pods-SwiftLogDeploymentTestProjecttvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BC30D2F5964D84B628652AB363C132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549F784B7A4CBD314A29BAB665DDED09 /* Locks.swift in Sources */,
+				EED53719FF18E2F574B13DB3975FCCB7 /* Logging.swift in Sources */,
+				BE0695E8517417D6EF82BA056657CB64 /* LogHandler.swift in Sources */,
+				FBA7BF7453AFE3468FF201A014692F75 /* SwiftLogAPI-library-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5059E69E160E8D7B280E01DF3A76FFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2E234FDD02C1E6569564BE67687C9 /* Pods-SwiftLogDeploymentTestProjectiOSExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FB0490F9841B1C90486F1273B3B4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7F66B7F8C6F8C9F70D9F8FF06DA003 /* Locks.swift in Sources */,
+				7E16FE63DAB78BE5BD25DE3DC65B1284 /* Logging.swift in Sources */,
+				BA5E3DB980B9E1F47D11065CBDBF0477 /* LogHandler.swift in Sources */,
+				A18CE2AE798DED2327B676EC4D051187 /* SwiftLogAPI-framework-watchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C137C4C1581C808C7FE9136DA29E916F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D5495E08148E98373F2C89AB05D4A1 /* Locks.swift in Sources */,
+				8D6CA64CB43AEB51E7ADD3D3CD9EA7AF /* Logging.swift in Sources */,
+				F9D84CC6972057F25851A32A49A27F55 /* LogHandler.swift in Sources */,
+				63FB410F356DB712555C59FB94C7A2E9 /* SwiftLogAPI-framework-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC03A666CDA79C00571CEEB5F8479F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228A12675182E82F3A15280F98B2FC18 /* Locks.swift in Sources */,
+				5DEDBF4F24E15FDB5068DABC82CC9EA4 /* Logging.swift in Sources */,
+				FFDB64658E19945384D613E9734F8F1F /* LogHandler.swift in Sources */,
+				056B3B4FDE6A539AAFA4257A573FC181 /* SwiftLogAPI-framework-macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5396FA0C8F34A8741A6D7545C51E4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B80A0C76BF81474F41059FC0C9AC68 /* Pods-SwiftLogDeploymentTestProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA234F0161B0F6B3189915293827CD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAABBA6D4AA03728434A20EAADB042EB /* Pods-SwiftLogDeploymentTestProjectiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA491002CCDFDBDB5EBAE276D16651E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CC23256160BE66F7D9A26A2D52CC9D /* Pods-SwiftLogDeploymentTestProjectwatchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE046063790EBAD8E23B7A3F073E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9637E7C94C5494477431AD00286877E /* Locks.swift in Sources */,
+				EA348EE2214D270B1AF53F557F16CE59 /* Logging.swift in Sources */,
+				FA4E5F4629439F8F94348D81FE8AB993 /* LogHandler.swift in Sources */,
+				7E7EF8C14BC364F6D2ED4B8D8B7E716E /* SwiftLogAPI-framework-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01941487149E8D3ECAA1A96A82A8F61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLogAPI-framework-iOS";
+			target = F856678A9B647E6783D90FAC9BA35846 /* SwiftLogAPI-framework-iOS */;
+			targetProxy = 06E94331008B4E7FDE8E564C6A5EA2C6 /* PBXContainerItemProxy */;
+		};
+		069E2C8E34CB3D266C36A6B2B222CBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLogAPI-framework-watchOS";
+			target = 5A1463DDE76DC9C3B6882B43B7F2EA8D /* SwiftLogAPI-framework-watchOS */;
+			targetProxy = 6266120368D5CC8F7558883B48637D80 /* PBXContainerItemProxy */;
+		};
+		42FCB6F0E42E693F8DBBC91FB19C4818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLogAPI-framework-tvOS";
+			target = 9704803F1BA8D36A96B22DCE7DD79DB8 /* SwiftLogAPI-framework-tvOS */;
+			targetProxy = BEB47098E816503A6ADEE541CD6CD2BC /* PBXContainerItemProxy */;
+		};
+		B85572CECEE67165C5852DEA2B4F3CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLogAPI-framework-iOS";
+			target = F856678A9B647E6783D90FAC9BA35846 /* SwiftLogAPI-framework-iOS */;
+			targetProxy = 1CB7A85D2D747BB1B5DBC72BEF498B94 /* PBXContainerItemProxy */;
+		};
+		E997BD5061175AB6C8D49DFD92DB66FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLogAPI-framework-macOS";
+			target = 3770C3E627307BD678E34F8C63D5F820 /* SwiftLogAPI-framework-macOS */;
+			targetProxy = 30EC33D543E80B62594FEE1DE167FFB4 /* PBXContainerItemProxy */;
+		};
+		F1F86E1EAC16F00551E4FD1871D61BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftLogAPI-library";
+			target = 84972650A3C5A2FE63DC020CB1864E00 /* SwiftLogAPI-library */;
+			targetProxy = 6805698BA2DD93ADB7286BF90B940881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA40BD72175E2EC1476729474801CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076BD392B2716D9FF5A8D693E12701E9 /* Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DB9CBB29AD5B3BAAE1C433BBE7B712A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A7C18AF834DF5CB5BF09DEA2E85788 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0FA9B8A94B313C7F687C2E356CF8D65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C0D04201C193268BDC92FDEE8D28A1 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		161FDEEC157A747E238C776F7A42B0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF559BD9A9133E6D8E7D430F54A1EFF9 /* SwiftLogAPI-framework-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2AA52A21A41AD8E48B4043C68610D80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FCF352D3F80D13D413646AD978DF87 /* Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F347A07C09A2B1DA801A8759AA080A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3010F28C00E19B05795FE826F3474497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4349F144DB691FEED21DDF823B1D15 /* Pods-SwiftLogDeploymentTestProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		366F77EF721E8F4B8A5214B402360E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7337DF53F6ED2FFA8498888470A530 /* SwiftLogAPI-framework-iOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-iOS/SwiftLogAPI-framework-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-iOS/SwiftLogAPI-framework-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-iOS/SwiftLogAPI-framework-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EE08594F6AE99CA9EBD1908DA138762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B527BE3EF5C9B2460DA9D26B2FEA9EE /* Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40064E81E717FCF75D60F5B5A9DDD428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE13E8A6E32800B19DC560056CA9A2E /* SwiftLogAPI-library.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-library/SwiftLogAPI-library-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/Logging/SwiftLogAPI-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = "SwiftLogAPI-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		42990BEDA2C980124D3D592A71BD5F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		471F80A7C133910925D4EE7B4B6C6280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA72820B15C49FD9A410C41BD146D3C /* Pods-SwiftLogDeploymentTestProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8221482AE1F05F54DBF617158BFE4A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9AEF321F1E719ADD6037A5106D8DA8 /* SwiftLogAPI-framework-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A46FD0A7EB2D308235D7FEB55EAFE4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B87616F670C31AF9B33F3DD7D933D8 /* Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS/Pods-SwiftLogDeploymentTestProjectwatchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A88CA0748B98A61CF82D4E66F6817DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7337DF53F6ED2FFA8498888470A530 /* SwiftLogAPI-framework-iOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-iOS/SwiftLogAPI-framework-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-iOS/SwiftLogAPI-framework-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-iOS/SwiftLogAPI-framework-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACB065614DA84811E4E124A49F04D759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF559BD9A9133E6D8E7D430F54A1EFF9 /* SwiftLogAPI-framework-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-watchOS/SwiftLogAPI-framework-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		AE64B1EB4FF7923C1019AF730C065117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9AEF321F1E719ADD6037A5106D8DA8 /* SwiftLogAPI-framework-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-macOS/SwiftLogAPI-framework-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1FFA283C8396D76621A9618043F738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A311167AB5DD14A6EB578AF7E3E1D17D /* SwiftLogAPI-framework-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA2DD224B548B1449069489A3E86D6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB38F6589347C29CBF58FF5B3A9E414 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension/Pods-SwiftLogDeploymentTestProjectiOSExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension/Pods-SwiftLogDeploymentTestProjectiOSExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7FA51B35552F50D057E925C593CA5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A311167AB5DD14A6EB578AF7E3E1D17D /* SwiftLogAPI-framework-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLogAPI-framework-tvOS/SwiftLogAPI-framework-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = Logging;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAA76B0948BE63A08614E4EB6BDA2D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA80696C0791E58154DF0056F2E210CA /* Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension/Pods-SwiftLogDeploymentTestProjectiOSExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension/Pods-SwiftLogDeploymentTestProjectiOSExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE0487EFF847DCE757F242EAF9AAB578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7421FBCE0AFFE5E7DE9FB858BEA4D3 /* Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS/Pods-SwiftLogDeploymentTestProjectwatchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D018AE893670B666168C814C317C6CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE13E8A6E32800B19DC560056CA9A2E /* SwiftLogAPI-library.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLogAPI-library/SwiftLogAPI-library-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/Logging/SwiftLogAPI-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Logging;
+				PRODUCT_NAME = "SwiftLogAPI-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E454F01F48E6C5E0C5946C62A2C0A9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04F7F6BDAF9FBAF4304D988BBB6388B /* Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1040332AC6CEA97E8028DE1DAF376B57 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectwatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA9B8A94B313C7F687C2E356CF8D65B /* Debug */,
+				0DB9CBB29AD5B3BAAE1C433BBE7B712A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E4625253C076597C308DC98A9DC6262 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjecttvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE08594F6AE99CA9EBD1908DA138762 /* Debug */,
+				E454F01F48E6C5E0C5946C62A2C0A9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3133319D8E08A7E8C46AC3C105CC804F /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE64B1EB4FF7923C1019AF730C065117 /* Debug */,
+				8221482AE1F05F54DBF617158BFE4A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F347A07C09A2B1DA801A8759AA080A1 /* Debug */,
+				42990BEDA2C980124D3D592A71BD5F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1733CF6234E9E39FF2BAC65CFC4412 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectiOSExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DD224B548B1449069489A3E86D6D0 /* Debug */,
+				CAA76B0948BE63A08614E4EB6BDA2D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711D85E06BCE6EA12216A7A19B3FFE48 /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88CA0748B98A61CF82D4E66F6817DFB /* Debug */,
+				366F77EF721E8F4B8A5214B402360E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BAD453317FBC8B67FCE1D5FB465566 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA40BD72175E2EC1476729474801CA3 /* Debug */,
+				2AA52A21A41AD8E48B4043C68610D80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC66EA7E1B487CE46E74B388836DFA7 /* Build configuration list for PBXNativeTarget "SwiftLogAPI-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D018AE893670B666168C814C317C6CDA /* Debug */,
+				40064E81E717FCF75D60F5B5A9DDD428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E5B2CA440584D66BFA8D70E6BAC2EF /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161FDEEC157A747E238C776F7A42B0DA /* Debug */,
+				ACB065614DA84811E4E124A49F04D759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78F4F9B8739837C6D3A977795380756 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProjectwatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0487EFF847DCE757F242EAF9AAB578 /* Debug */,
+				A46FD0A7EB2D308235D7FEB55EAFE4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CBCB12F79FD2B013DBD1796EF71215 /* Build configuration list for PBXNativeTarget "Pods-SwiftLogDeploymentTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471F80A7C133910925D4EE7B4B6C6280 /* Debug */,
+				3010F28C00E19B05795FE826F3474497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC28AB49369D5D40CB151779D7A5097D /* Build configuration list for PBXNativeTarget "SwiftLogAPI-framework-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FA51B35552F50D057E925C593CA5D1 /* Debug */,
+				AF1FFA283C8396D76621A9618043F738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

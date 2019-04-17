@@ -1,0 +1,6 @@
+module Pods_SwiftLogDeploymentTestProjectwatchOS {
+  umbrella header "Pods-SwiftLogDeploymentTestProjectwatchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

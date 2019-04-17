@@ -1,0 +1,6 @@
+framework module Logging {
+  umbrella header "SwiftLogAPI-framework-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

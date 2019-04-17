@@ -1,0 +1,16 @@
+PODS:
+  - SwiftLogAPI (1.0.0)
+
+DEPENDENCIES:
+  - SwiftLogAPI (from `CustomLocalSpec/SwiftLogAPI.podspec`)
+
+EXTERNAL SOURCES:
+  SwiftLogAPI:
+    :podspec: CustomLocalSpec/SwiftLogAPI.podspec
+
+SPEC CHECKSUMS:
+  SwiftLogAPI: 38ffbb9f3719ce8d788bb6ec3e4c7d6da3628949
+
+PODFILE CHECKSUM: 1a362b68eefd0f4410e1808c7545984325a1b70a
+
+COCOAPODS: 1.6.1

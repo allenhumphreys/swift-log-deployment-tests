@@ -1,0 +1,1358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F031559AE10DB86F46A2B /* Pods_SwiftLogDeploymentTestProjecttvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9408B6AFE87BDC733F2E830 /* Pods_SwiftLogDeploymentTestProjecttvOS.framework */; };
+		333F45C58B5E5E7380414C45 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9D5646F5CF4DFA9AD8E356 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a */; };
+		4DDAD330226776E300B8613C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD32F226776E300B8613C /* AppDelegate.swift */; };
+		4DDAD332226776E300B8613C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD331226776E300B8613C /* ViewController.swift */; };
+		4DDAD335226776E300B8613C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD333226776E300B8613C /* Main.storyboard */; };
+		4DDAD337226776E400B8613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD336226776E400B8613C /* Assets.xcassets */; };
+		4DDAD33A226776E400B8613C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD338226776E400B8613C /* LaunchScreen.storyboard */; };
+		4DDAD3452267770500B8613C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD3432267770500B8613C /* Interface.storyboard */; };
+		4DDAD3472267770600B8613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD3462267770600B8613C /* Assets.xcassets */; };
+		4DDAD34E2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4DDAD34D2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DDAD3532267770600B8613C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD3522267770600B8613C /* InterfaceController.swift */; };
+		4DDAD3552267770600B8613C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD3542267770600B8613C /* ExtensionDelegate.swift */; };
+		4DDAD3572267770700B8613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD3562267770700B8613C /* Assets.xcassets */; };
+		4DDAD35B2267770700B8613C /* SwiftLogDeploymentTestProjectwatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DDAD3412267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS.app */; };
+		4DDAD36B2267773700B8613C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD36A2267773700B8613C /* AppDelegate.swift */; };
+		4DDAD36D2267773700B8613C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD36C2267773700B8613C /* ViewController.swift */; };
+		4DDAD3702267773700B8613C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD36E2267773700B8613C /* Main.storyboard */; };
+		4DDAD3722267773800B8613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD3712267773800B8613C /* Assets.xcassets */; };
+		4DDAD37E2267776600B8613C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDAD37D2267776600B8613C /* NotificationCenter.framework */; };
+		4DDAD3812267776600B8613C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD3802267776600B8613C /* TodayViewController.swift */; };
+		4DDAD3842267776600B8613C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD3822267776600B8613C /* MainInterface.storyboard */; };
+		4DDAD3882267776600B8613C /* SwiftLogDeploymentTestProjectiOSExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4DDAD37B2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DDAD39422677BA200B8613C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAD39322677BA200B8613C /* AppDelegate.swift */; };
+		4DDAD39622677BA300B8613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD39522677BA300B8613C /* Assets.xcassets */; };
+		4DDAD39922677BA300B8613C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAD39722677BA300B8613C /* MainMenu.xib */; };
+		5761A0131866BA56A449A84C /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67952A9B039FDD82F1DD004D /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework */; };
+		7DB3C2B7A534417EE09F9357 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A436F4CBD2A1EA76D29AA77 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework */; };
+		8CB93340D1FEB1D02949E384 /* Pods_SwiftLogDeploymentTestProjectiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661C72121355B2469F32BDE /* Pods_SwiftLogDeploymentTestProjectiOS.framework */; };
+		A38E64E57B6EAA2DAED0EF44 /* Pods_SwiftLogDeploymentTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B247FE7D3AE2460A4B8C9C4 /* Pods_SwiftLogDeploymentTestProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DDAD34F2267770600B8613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDAD30E226776C000B8613C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDAD34C2267770600B8613C;
+			remoteInfo = "SwiftLogDeploymentTestProjectwatchOS Extension";
+		};
+		4DDAD3592267770700B8613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDAD30E226776C000B8613C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDAD3402267770500B8613C;
+			remoteInfo = SwiftLogDeploymentTestProjectwatchOS;
+		};
+		4DDAD3862267776600B8613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDAD30E226776C000B8613C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDAD37A2267776500B8613C;
+			remoteInfo = SwiftLogDeploymentTestProjectiOSExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DDAD35F2267770700B8613C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DDAD34E2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3632267770700B8613C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4DDAD35B2267770700B8613C /* SwiftLogDeploymentTestProjectwatchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD38C2267776600B8613C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DDAD3882267776600B8613C /* SwiftLogDeploymentTestProjectiOSExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C1F7EEED1B616A2BFAA98C4 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		1502F6D346B6A08AD56B2591 /* Pods-SwiftLogDeploymentTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		1697E6C94EB30955DDFAECAD /* Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		25D9ED9AE8518DB1BD5AE236 /* Pods-SwiftLogDeploymentTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		32CC39647F9F8BA6BF92399A /* Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig"; sourceTree = "<group>"; };
+		3A436F4CBD2A1EA76D29AA77 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B247FE7D3AE2460A4B8C9C4 /* Pods_SwiftLogDeploymentTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLogDeploymentTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD32D226776E300B8613C /* SwiftLogDeploymentTestProjectiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLogDeploymentTestProjectiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD32F226776E300B8613C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DDAD331226776E300B8613C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DDAD334226776E300B8613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DDAD336226776E400B8613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDAD339226776E400B8613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DDAD33B226776E400B8613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAD3412267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLogDeploymentTestProjectwatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD3442267770500B8613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4DDAD3462267770600B8613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDAD3482267770600B8613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAD34D2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftLogDeploymentTestProjectwatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD3522267770600B8613C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4DDAD3542267770600B8613C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4DDAD3562267770700B8613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDAD3582267770700B8613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAD3682267773700B8613C /* SwiftLogDeploymentTestProjecttvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLogDeploymentTestProjecttvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD36A2267773700B8613C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DDAD36C2267773700B8613C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DDAD36F2267773700B8613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DDAD3712267773800B8613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDAD3732267773800B8613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAD37B2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftLogDeploymentTestProjectiOSExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD37D2267776600B8613C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4DDAD3802267776600B8613C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4DDAD3832267776600B8613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4DDAD3852267776600B8613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAD39122677BA200B8613C /* SwiftLogDeploymentTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLogDeploymentTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAD39322677BA200B8613C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DDAD39522677BA300B8613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDAD39822677BA300B8613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4DDAD39A22677BA300B8613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAD39B22677BA300B8613C /* SwiftLogDeploymentTestProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLogDeploymentTestProject.entitlements; sourceTree = "<group>"; };
+		5BFCB54D7395A64C7F548F08 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension/Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig"; sourceTree = "<group>"; };
+		67952A9B039FDD82F1DD004D /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLogDeploymentTestProjectiOSExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EF5EDF0F446398CBFF1BB2 /* Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS/Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B4E3F3F3F81DE946FE43F3 /* Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B7733325D3E96EF284539BEF /* Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS/Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		C661C72121355B2469F32BDE /* Pods_SwiftLogDeploymentTestProjectiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLogDeploymentTestProjectiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9D5646F5CF4DFA9AD8E356 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftLogDeploymentTestProjectwatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE33F0DC89ACB7998BF6F2 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOSExtension/Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D9408B6AFE87BDC733F2E830 /* Pods_SwiftLogDeploymentTestProjecttvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLogDeploymentTestProjecttvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86361ED2CC0FBF47062FD97 /* Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5D8E69A055A27E049A250B /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig"; path = "Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DDAD32A226776E300B8613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB93340D1FEB1D02949E384 /* Pods_SwiftLogDeploymentTestProjectiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD34A2267770600B8613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB3C2B7A534417EE09F9357 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3652267773700B8613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F031559AE10DB86F46A2B /* Pods_SwiftLogDeploymentTestProjecttvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3782267776500B8613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD37E2267776600B8613C /* NotificationCenter.framework in Frameworks */,
+				5761A0131866BA56A449A84C /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD38E22677BA200B8613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38E64E57B6EAA2DAED0EF44 /* Pods_SwiftLogDeploymentTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6814373C236DA09437B2F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333F45C58B5E5E7380414C45 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DDAD30D226776C000B8613C = {
+			isa = PBXGroup;
+			children = (
+				4DDAD32E226776E300B8613C /* SwiftLogDeploymentTestProjectiOS */,
+				4DDAD3422267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS */,
+				4DDAD3512267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension */,
+				4DDAD3692267773700B8613C /* SwiftLogDeploymentTestProjecttvOS */,
+				4DDAD37F2267776600B8613C /* SwiftLogDeploymentTestProjectiOSExtension */,
+				4DDAD39222677BA200B8613C /* SwiftLogDeploymentTestProject */,
+				4DDAD37C2267776600B8613C /* Frameworks */,
+				4DDAD317226776C000B8613C /* Products */,
+				ACD3950EE7F87004CE82233F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4DDAD317226776C000B8613C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD32D226776E300B8613C /* SwiftLogDeploymentTestProjectiOS.app */,
+				4DDAD3412267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS.app */,
+				4DDAD34D2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension.appex */,
+				4DDAD3682267773700B8613C /* SwiftLogDeploymentTestProjecttvOS.app */,
+				4DDAD37B2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension.appex */,
+				4DDAD39122677BA200B8613C /* SwiftLogDeploymentTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DDAD32E226776E300B8613C /* SwiftLogDeploymentTestProjectiOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD32F226776E300B8613C /* AppDelegate.swift */,
+				4DDAD331226776E300B8613C /* ViewController.swift */,
+				4DDAD333226776E300B8613C /* Main.storyboard */,
+				4DDAD336226776E400B8613C /* Assets.xcassets */,
+				4DDAD338226776E400B8613C /* LaunchScreen.storyboard */,
+				4DDAD33B226776E400B8613C /* Info.plist */,
+			);
+			path = SwiftLogDeploymentTestProjectiOS;
+			sourceTree = "<group>";
+		};
+		4DDAD3422267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD3432267770500B8613C /* Interface.storyboard */,
+				4DDAD3462267770600B8613C /* Assets.xcassets */,
+				4DDAD3482267770600B8613C /* Info.plist */,
+			);
+			path = SwiftLogDeploymentTestProjectwatchOS;
+			sourceTree = "<group>";
+		};
+		4DDAD3512267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD3522267770600B8613C /* InterfaceController.swift */,
+				4DDAD3542267770600B8613C /* ExtensionDelegate.swift */,
+				4DDAD3562267770700B8613C /* Assets.xcassets */,
+				4DDAD3582267770700B8613C /* Info.plist */,
+			);
+			path = "SwiftLogDeploymentTestProjectwatchOS Extension";
+			sourceTree = "<group>";
+		};
+		4DDAD3692267773700B8613C /* SwiftLogDeploymentTestProjecttvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD36A2267773700B8613C /* AppDelegate.swift */,
+				4DDAD36C2267773700B8613C /* ViewController.swift */,
+				4DDAD36E2267773700B8613C /* Main.storyboard */,
+				4DDAD3712267773800B8613C /* Assets.xcassets */,
+				4DDAD3732267773800B8613C /* Info.plist */,
+			);
+			path = SwiftLogDeploymentTestProjecttvOS;
+			sourceTree = "<group>";
+		};
+		4DDAD37C2267776600B8613C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD37D2267776600B8613C /* NotificationCenter.framework */,
+				3B247FE7D3AE2460A4B8C9C4 /* Pods_SwiftLogDeploymentTestProject.framework */,
+				C661C72121355B2469F32BDE /* Pods_SwiftLogDeploymentTestProjectiOS.framework */,
+				67952A9B039FDD82F1DD004D /* Pods_SwiftLogDeploymentTestProjectiOSExtension.framework */,
+				D9408B6AFE87BDC733F2E830 /* Pods_SwiftLogDeploymentTestProjecttvOS.framework */,
+				CD9D5646F5CF4DFA9AD8E356 /* libPods-SwiftLogDeploymentTestProjectwatchOS.a */,
+				3A436F4CBD2A1EA76D29AA77 /* Pods_SwiftLogDeploymentTestProjectwatchOS_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DDAD37F2267776600B8613C /* SwiftLogDeploymentTestProjectiOSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD3802267776600B8613C /* TodayViewController.swift */,
+				4DDAD3822267776600B8613C /* MainInterface.storyboard */,
+				4DDAD3852267776600B8613C /* Info.plist */,
+			);
+			path = SwiftLogDeploymentTestProjectiOSExtension;
+			sourceTree = "<group>";
+		};
+		4DDAD39222677BA200B8613C /* SwiftLogDeploymentTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAD39322677BA200B8613C /* AppDelegate.swift */,
+				4DDAD39522677BA300B8613C /* Assets.xcassets */,
+				4DDAD39722677BA300B8613C /* MainMenu.xib */,
+				4DDAD39A22677BA300B8613C /* Info.plist */,
+				4DDAD39B22677BA300B8613C /* SwiftLogDeploymentTestProject.entitlements */,
+			);
+			path = SwiftLogDeploymentTestProject;
+			sourceTree = "<group>";
+		};
+		ACD3950EE7F87004CE82233F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D9ED9AE8518DB1BD5AE236 /* Pods-SwiftLogDeploymentTestProject.debug.xcconfig */,
+				1502F6D346B6A08AD56B2591 /* Pods-SwiftLogDeploymentTestProject.release.xcconfig */,
+				E86361ED2CC0FBF47062FD97 /* Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig */,
+				32CC39647F9F8BA6BF92399A /* Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig */,
+				D0AE33F0DC89ACB7998BF6F2 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig */,
+				5BFCB54D7395A64C7F548F08 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig */,
+				1697E6C94EB30955DDFAECAD /* Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig */,
+				A5B4E3F3F3F81DE946FE43F3 /* Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig */,
+				85EF5EDF0F446398CBFF1BB2 /* Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig */,
+				B7733325D3E96EF284539BEF /* Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig */,
+				0C1F7EEED1B616A2BFAA98C4 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig */,
+				FD5D8E69A055A27E049A250B /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DDAD32C226776E300B8613C /* SwiftLogDeploymentTestProjectiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAD33C226776E400B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectiOS" */;
+			buildPhases = (
+				0D3270A1BA97CBDFE5AAB0FF /* [CP] Check Pods Manifest.lock */,
+				4DDAD329226776E300B8613C /* Sources */,
+				4DDAD32A226776E300B8613C /* Frameworks */,
+				4DDAD32B226776E300B8613C /* Resources */,
+				4DDAD3632267770700B8613C /* Embed Watch Content */,
+				4DDAD38C2267776600B8613C /* Embed App Extensions */,
+				C7ED3687F5E84BD5280D99B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDAD35A2267770700B8613C /* PBXTargetDependency */,
+				4DDAD3872267776600B8613C /* PBXTargetDependency */,
+			);
+			name = SwiftLogDeploymentTestProjectiOS;
+			productName = SwiftLogDeploymentTestProjectiOS;
+			productReference = 4DDAD32D226776E300B8613C /* SwiftLogDeploymentTestProjectiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DDAD3402267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAD3602267770700B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectwatchOS" */;
+			buildPhases = (
+				1C1DCBA13CF80B7097024DAB /* [CP] Check Pods Manifest.lock */,
+				4DDAD33F2267770500B8613C /* Resources */,
+				4DDAD35F2267770700B8613C /* Embed App Extensions */,
+				E6814373C236DA09437B2F0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDAD3502267770600B8613C /* PBXTargetDependency */,
+			);
+			name = SwiftLogDeploymentTestProjectwatchOS;
+			productName = SwiftLogDeploymentTestProjectwatchOS;
+			productReference = 4DDAD3412267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4DDAD34C2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAD35C2267770700B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectwatchOS Extension" */;
+			buildPhases = (
+				19124FF0DF672AACBF1A0F81 /* [CP] Check Pods Manifest.lock */,
+				4DDAD3492267770600B8613C /* Sources */,
+				4DDAD34A2267770600B8613C /* Frameworks */,
+				4DDAD34B2267770600B8613C /* Resources */,
+				25FEA80E3225F1FAD828ED3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftLogDeploymentTestProjectwatchOS Extension";
+			productName = "SwiftLogDeploymentTestProjectwatchOS Extension";
+			productReference = 4DDAD34D2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4DDAD3672267773700B8613C /* SwiftLogDeploymentTestProjecttvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAD3742267773800B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjecttvOS" */;
+			buildPhases = (
+				D6AF6408D57713C7FC3403AD /* [CP] Check Pods Manifest.lock */,
+				4DDAD3642267773700B8613C /* Sources */,
+				4DDAD3652267773700B8613C /* Frameworks */,
+				4DDAD3662267773700B8613C /* Resources */,
+				86AF40D41596F87F8C353DF7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLogDeploymentTestProjecttvOS;
+			productName = SwiftLogDeploymentTestProjecttvOS;
+			productReference = 4DDAD3682267773700B8613C /* SwiftLogDeploymentTestProjecttvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DDAD37A2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAD3892267776600B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectiOSExtension" */;
+			buildPhases = (
+				81555319A58A4328F20AF359 /* [CP] Check Pods Manifest.lock */,
+				4DDAD3772267776500B8613C /* Sources */,
+				4DDAD3782267776500B8613C /* Frameworks */,
+				4DDAD3792267776500B8613C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLogDeploymentTestProjectiOSExtension;
+			productName = SwiftLogDeploymentTestProjectiOSExtension;
+			productReference = 4DDAD37B2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4DDAD39022677BA200B8613C /* SwiftLogDeploymentTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAD39C22677BA300B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProject" */;
+			buildPhases = (
+				E8A3EF0703697F9AE56F0633 /* [CP] Check Pods Manifest.lock */,
+				4DDAD38D22677BA200B8613C /* Sources */,
+				4DDAD38E22677BA200B8613C /* Frameworks */,
+				4DDAD38F22677BA200B8613C /* Resources */,
+				8221EE803BB8F4D1E1BF2614 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLogDeploymentTestProject;
+			productName = SwiftLogDeploymentTestProject;
+			productReference = 4DDAD39122677BA200B8613C /* SwiftLogDeploymentTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DDAD30E226776C000B8613C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Allen;
+				TargetAttributes = {
+					4DDAD32C226776E300B8613C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					4DDAD3402267770500B8613C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					4DDAD34C2267770600B8613C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					4DDAD3672267773700B8613C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					4DDAD37A2267776500B8613C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					4DDAD39022677BA200B8613C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 4DDAD311226776C000B8613C /* Build configuration list for PBXProject "SwiftLogDeploymentTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DDAD30D226776C000B8613C;
+			productRefGroup = 4DDAD317226776C000B8613C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DDAD32C226776E300B8613C /* SwiftLogDeploymentTestProjectiOS */,
+				4DDAD3402267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS */,
+				4DDAD34C2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension */,
+				4DDAD3672267773700B8613C /* SwiftLogDeploymentTestProjecttvOS */,
+				4DDAD37A2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension */,
+				4DDAD39022677BA200B8613C /* SwiftLogDeploymentTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DDAD32B226776E300B8613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD33A226776E400B8613C /* LaunchScreen.storyboard in Resources */,
+				4DDAD337226776E400B8613C /* Assets.xcassets in Resources */,
+				4DDAD335226776E300B8613C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD33F2267770500B8613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD3472267770600B8613C /* Assets.xcassets in Resources */,
+				4DDAD3452267770500B8613C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD34B2267770600B8613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD3572267770700B8613C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3662267773700B8613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD3722267773800B8613C /* Assets.xcassets in Resources */,
+				4DDAD3702267773700B8613C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3792267776500B8613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD3842267776600B8613C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD38F22677BA200B8613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD39622677BA300B8613C /* Assets.xcassets in Resources */,
+				4DDAD39922677BA300B8613C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3270A1BA97CBDFE5AAB0FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLogDeploymentTestProjectiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19124FF0DF672AACBF1A0F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLogDeploymentTestProjectwatchOS Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C1DCBA13CF80B7097024DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLogDeploymentTestProjectwatchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25FEA80E3225F1FAD828ED3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftLogAPI-framework-watchOS/Logging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProjectwatchOS Extension/Pods-SwiftLogDeploymentTestProjectwatchOS Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81555319A58A4328F20AF359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLogDeploymentTestProjectiOSExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8221EE803BB8F4D1E1BF2614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftLogAPI-framework-macOS/Logging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProject/Pods-SwiftLogDeploymentTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86AF40D41596F87F8C353DF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftLogAPI-framework-tvOS/Logging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProjecttvOS/Pods-SwiftLogDeploymentTestProjecttvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7ED3687F5E84BD5280D99B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftLogAPI-framework-iOS/Logging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftLogDeploymentTestProjectiOS/Pods-SwiftLogDeploymentTestProjectiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6AF6408D57713C7FC3403AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLogDeploymentTestProjecttvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A3EF0703697F9AE56F0633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLogDeploymentTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DDAD329226776E300B8613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD332226776E300B8613C /* ViewController.swift in Sources */,
+				4DDAD330226776E300B8613C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3492267770600B8613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD3552267770600B8613C /* ExtensionDelegate.swift in Sources */,
+				4DDAD3532267770600B8613C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3642267773700B8613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD36D2267773700B8613C /* ViewController.swift in Sources */,
+				4DDAD36B2267773700B8613C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD3772267776500B8613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD3812267776600B8613C /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAD38D22677BA200B8613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAD39422677BA200B8613C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DDAD3502267770600B8613C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDAD34C2267770600B8613C /* SwiftLogDeploymentTestProjectwatchOS Extension */;
+			targetProxy = 4DDAD34F2267770600B8613C /* PBXContainerItemProxy */;
+		};
+		4DDAD35A2267770700B8613C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDAD3402267770500B8613C /* SwiftLogDeploymentTestProjectwatchOS */;
+			targetProxy = 4DDAD3592267770700B8613C /* PBXContainerItemProxy */;
+		};
+		4DDAD3872267776600B8613C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDAD37A2267776500B8613C /* SwiftLogDeploymentTestProjectiOSExtension */;
+			targetProxy = 4DDAD3862267776600B8613C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DDAD333226776E300B8613C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAD334226776E300B8613C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDAD338226776E400B8613C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAD339226776E400B8613C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDAD3432267770500B8613C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAD3442267770500B8613C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDAD36E2267773700B8613C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAD36F2267773700B8613C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDAD3822267776600B8613C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAD3832267776600B8613C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		4DDAD39722677BA300B8613C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAD39822677BA300B8613C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DDAD324226776C200B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DDAD325226776C200B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4DDAD33D226776E400B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86361ED2CC0FBF47062FD97 /* Pods-SwiftLogDeploymentTestProjectiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjectiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DDAD33E226776E400B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CC39647F9F8BA6BF92399A /* Pods-SwiftLogDeploymentTestProjectiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjectiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDAD35D2267770700B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1F7EEED1B616A2BFAA98C4 /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "SwiftLogDeploymentTestProjectwatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		4DDAD35E2267770700B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5D8E69A055A27E049A250B /* Pods-SwiftLogDeploymentTestProjectwatchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = "SwiftLogDeploymentTestProjectwatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		4DDAD3612267770700B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EF5EDF0F446398CBFF1BB2 /* Pods-SwiftLogDeploymentTestProjectwatchOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				IBSC_MODULE = SwiftLogDeploymentTestProjectwatchOS_Extension;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjectwatchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		4DDAD3622267770700B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7733325D3E96EF284539BEF /* Pods-SwiftLogDeploymentTestProjectwatchOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				IBSC_MODULE = SwiftLogDeploymentTestProjectwatchOS_Extension;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjectwatchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		4DDAD3752267773800B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1697E6C94EB30955DDFAECAD /* Pods-SwiftLogDeploymentTestProjecttvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjecttvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjecttvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4DDAD3762267773800B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B4E3F3F3F81DE946FE43F3 /* Pods-SwiftLogDeploymentTestProjecttvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjecttvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjecttvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDAD38A2267776600B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AE33F0DC89ACB7998BF6F2 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjectiOSExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS.SwiftLogDeploymentTestProjectiOSExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DDAD38B2267776600B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFCB54D7395A64C7F548F08 /* Pods-SwiftLogDeploymentTestProjectiOSExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72X6ZPCY5L;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProjectiOSExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProjectiOS.SwiftLogDeploymentTestProjectiOSExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDAD39D22677BA300B8613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D9ED9AE8518DB1BD5AE236 /* Pods-SwiftLogDeploymentTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftLogDeploymentTestProject/SwiftLogDeploymentTestProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DDAD39E22677BA300B8613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1502F6D346B6A08AD56B2591 /* Pods-SwiftLogDeploymentTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftLogDeploymentTestProject/SwiftLogDeploymentTestProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftLogDeploymentTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.humphreys.SwiftLogDeploymentTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DDAD311226776C000B8613C /* Build configuration list for PBXProject "SwiftLogDeploymentTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD324226776C200B8613C /* Debug */,
+				4DDAD325226776C200B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAD33C226776E400B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD33D226776E400B8613C /* Debug */,
+				4DDAD33E226776E400B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAD35C2267770700B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectwatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD35D2267770700B8613C /* Debug */,
+				4DDAD35E2267770700B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAD3602267770700B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectwatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD3612267770700B8613C /* Debug */,
+				4DDAD3622267770700B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAD3742267773800B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjecttvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD3752267773800B8613C /* Debug */,
+				4DDAD3762267773800B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAD3892267776600B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProjectiOSExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD38A2267776600B8613C /* Debug */,
+				4DDAD38B2267776600B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAD39C22677BA300B8613C /* Build configuration list for PBXNativeTarget "SwiftLogDeploymentTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAD39D22677BA300B8613C /* Debug */,
+				4DDAD39E22677BA300B8613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DDAD30E226776C000B8613C /* Project object */;
+}
